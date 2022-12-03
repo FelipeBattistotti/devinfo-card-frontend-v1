@@ -1,0 +1,204 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: visible;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25rem;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  user-select: none;
+  font-size: small;
+  color: #fafafa;
+}
+
+.footer span a:hover,
+.footer span a:focus,
+.footer span a:active {
+  color: #0070f3;
+  text-decoration: underline;
+  transition: color 0.25s ease, color 0.25s ease;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+  color: #fafafa;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  margin-top: 0.5rem;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.cardGitHub,
+.cardEmail,
+.cardYouTube,
+.cardInsta,
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #fafafa;
+  text-decoration: none;
+  border: 2px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.25s ease, border-color 0.25s ease;
+  --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+.cardGitHub:hover,
+.cardGitHub:focus,
+.cardGitHub:active {
+  color: #6e7681;
+  border-color: #6e7681;
+}
+
+.cardEmail:hover,
+.cardEmail:focus,
+.cardEmail:active {
+  color: #b36bcf;
+  border-color: #b36bcf;
+}
+
+.cardYouTube:hover,
+.cardYouTube:focus,
+.cardYouTube:active {
+  color: #c00;
+  border-color: #c00;
+}
+
+.cardInsta:hover,
+.cardInsta:focus,
+.cardInsta:active {
+  color: #EB984E;
+  border-color: #EB984E;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.cardGitHub h2,
+.cardEmail h2,
+.cardYouTube h2,
+.cardInsta h2,
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.cardGitHub p,
+.cardEmail p,
+.cardYouTube p,
+.cardInsta p,
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.insta_title {
+  margin-left: 2rem;
+}
+
+.insta_nametag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.photo {
+  border-radius: 100%;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .main {
+    margin-top: 58rem;
+  }
+
+  .insta_title {
+    margin-left: 0rem;
+  }
+
+  .footer span {
+    font-size: x-small;
+  }
+}
